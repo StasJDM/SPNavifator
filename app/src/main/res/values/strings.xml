@@ -3,4 +3,5 @@
     <string name="unknown_error_message"></string>
     <string name="open_map">Запустить карту</string>
     <string name="search_hint">Поиск мест и адресов</string>
+    <string name="permissions_missing">Отсутствуют необходимые разрешения</string>
 </resources>
