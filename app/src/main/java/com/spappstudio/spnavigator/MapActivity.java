@@ -8,6 +8,7 @@ import android.Manifest;
 import android.content.pm.PackageManager;
 import android.graphics.PointF;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.KeyEvent;
 import android.view.inputmethod.EditorInfo;
 import android.widget.EditText;
@@ -123,6 +124,8 @@ public class MapActivity extends AppCompatActivity implements Session.SearchList
 
         for (GeoObjectCollection.Item searchResult : response.getCollection().getChildren()) {
             Point resultLocation = searchResult.getObj().getGeometry().get(0).getPoint();
+            Log.d("LOG NAME",searchResult.getObj().getName());
+            Log.d("LOG DESC", searchResult.getObj().getDescriptionText());
             if (resultLocation != null) {
                 mapObjectCollection.addPlacemark(
                         resultLocation,

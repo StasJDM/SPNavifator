@@ -71,4 +71,9 @@ public class MainActivity extends AppCompatActivity {
             Toast.makeText(this, getString(R.string.permissions_missing), Toast.LENGTH_LONG).show();
         }
     }
+
+    public  void onClickCategory(View view) {
+        Intent intent = new Intent(MainActivity.this, CategoryActivity.class);
+        startActivity(intent);
+    }
 }
