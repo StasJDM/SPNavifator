@@ -1,4 +1,4 @@
-package com.spappstudio.spnavifator;
+package com.spappstudio.spnavigator;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -20,7 +20,6 @@ import com.yandex.mapkit.layers.ObjectEvent;
 import com.yandex.mapkit.map.CameraListener;
 import com.yandex.mapkit.map.CameraPosition;
 import com.yandex.mapkit.map.CameraUpdateSource;
-import com.yandex.mapkit.map.CompositeIcon;
 import com.yandex.mapkit.map.Map;
 import com.yandex.mapkit.map.MapObjectCollection;
 import com.yandex.mapkit.map.VisibleRegionUtils;

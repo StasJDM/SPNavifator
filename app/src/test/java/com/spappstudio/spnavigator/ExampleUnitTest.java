@@ -1,4 +1,4 @@
-package com.spappstudio.spnavifator;
+package com.spappstudio.spnavigator;
 
 import org.junit.Test;
 
